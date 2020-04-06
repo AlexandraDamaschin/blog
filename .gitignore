@@ -155,3 +155,9 @@ build-iPhoneSimulator/
 # .rubocop-https?--*
 
 # End of https://www.gitignore.io/api/ruby
+/.idea/.rakeTasks
+/.idea/
+/db/
+/log/
+/public/packs/js/
+/public/packs/manifest.json
