@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+  blog:
+    container_name: blog
+    build:
+      context: ${APP_PATH:-.}
+      dockerfile: Dockerfile
+    image: blog
+    command: bundle exec rails s
+    ports:
+      - 3000:3000
+    volumes:
+      - ${APP_PATH:-.}:/web/app
