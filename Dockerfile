@@ -14,7 +14,8 @@ RUN apk update \
     libxslt-dev \
     nodejs \
     sqlite \
-    sqlite-dev
+    sqlite-dev \
+    yarn
 
 COPY . $APP_HOME
 
