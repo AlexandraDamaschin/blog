@@ -10,3 +10,5 @@ docker-compose up
 
 After running this two commands your project it's up and running on port: 3000
 
+* If you want to run a migration you can do it by running the following command from your terminal:
+ docker run --rm migration-demo
