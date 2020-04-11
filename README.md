@@ -1,24 +1,12 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version : 2.5.5
 
-Things you may want to cover:
+* This project contains a docker so you can easy run it. 
+If you have docker installed on your computer just run the following commands from your terminal: 
 
-* Ruby version
+docker-compose build
+docker-compose up 
 
-* System dependencies
+After running this two commands your project it's up and running on port: 3000
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
