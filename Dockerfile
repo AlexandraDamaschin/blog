@@ -17,6 +17,8 @@ RUN apk update \
     sqlite-dev \
     yarn
 
+EXPOSE 3000
+
 COPY . $APP_HOME
 
 ENV BUNDLE_GEMFILE=$APP_HOME/Gemfile \
