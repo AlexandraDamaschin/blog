@@ -1,6 +1,6 @@
 # README
 
-* Ruby version : 2.5.5
+* Ruby version : 2.6.4
 
 * This project contains a docker so you can easy run it. 
 If you have docker installed on your computer just run the following commands from your terminal: 
